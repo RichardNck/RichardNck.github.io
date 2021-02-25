@@ -1,0 +1,26 @@
+@media only screen and (max-width: 991px){
+	.conts .texts3 .img2 {width: 100%; text-align: center;}
+	.conts .author {padding: 10px 20px;}
+	.aboutauthor .photo {width: 60px; height: 60px;}
+	.aboutauthor p {margin-left: 70px;}
+	.conts .author .ratestars {margin-right: 10px;}
+	.conts .author .date {margin: 8px 10px 0;}
+}
+@media only screen and (max-width: 767px){
+	.ctitle {font-size: 26px;}
+	.conts {padding: 30px 0;}
+	.conts .texts2 {padding: 20px;}
+	.conts .texts2 h4 {font-size: 20px;}
+	.aboutauthor {display: none;}
+}
+@media only screen and (max-width: 575px){
+	.logo {padding: 0 20px;}
+	.conts .texts3 .twimg {width: 100%;}
+	.conts .author .date {clear: left;}
+	footer {padding: 40px 0;}
+	footer .fmenus {padding: 30px 0;}
+	footer .fmenus li {padding: 0 8px 0 6px;}
+}
+@media only screen and (max-width: 374px){
+	.ctitle {font-size: 22px;}
+}

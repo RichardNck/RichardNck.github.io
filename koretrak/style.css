@@ -1,0 +1,89 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block; margin: 0; padding: 0;}
+* {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+html {font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, li, form {margin: 0; padding: 0; list-style: none; font-weight: normal;}
+button, input, select, textarea {margin: 0; padding: 0; border: none; font-family: 'Mulish', sans-serif;}
+.custfield:focus, button:focus {outline: none; border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
+body {font-family: 'Mulish', sans-serif; font-size: 14px; color: #000000;}
+a {text-decoration: none;}
+a:hover, a:focus {text-decoration: none; outline: none;}
+img {border: none; vertical-align: middle;}
+
+/****************
+ * Common Css
+ ****************/
+.custfield {border: none; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
+a, a:hover, button {transition:all 0.3s ease 0s; -moz-transition:all 0.3s ease 0s; -webkit-transition:all 0.3s ease 0s;}
+.ctitle {margin-bottom: 20px; color: #1a2a3b; font-weight: 800; font-size: 30px; position: relative;}
+/*.ctitle:after {content: ""; width: 60px; height: 3px; background-color: #1d928a; position: absolute; left: 0; bottom: 0;}*/
+.ctitle a {color: #1d928a;}
+.ctitle a:hover {text-decoration: underline;}
+.cbtn {display: inline-block; font-size: 16px; background-color: #1d928a; font-weight: 500; color: #ffffff; padding: 8px 25px; text-align: center; border-radius: 30px; -moz-border-radius: 30px; -webkit-border-radius: 30px;}
+.cbtn:hover {background-color: #1a2a3b; color: #ffffff !important;}
+
+/** Header Part **/
+header {background-color: #1a2a3b; padding: 20px 0;}
+.logo {margin-top: 1px;}
+.rheader p {background-color: #1d928a; display: inline-block; font-weight: 500; color: #ffffff; padding: 8px 20px; border-radius: 30px; -moz-border-radius: 30px; -webkit-border-radius: 30px;}
+
+/** Top Banner Part **/
+.topbanner {background: url(../images/bg1.jpg) no-repeat 50% 50%; height: 310px; position: relative;}
+.topbanner .texts {margin-top: 65px;}
+.topbanner .texts h3 {font-size:48px; font-weight: 800; color: #ffffff;}
+.topbanner .texts .update span {display: inline-block; margin-top: 15px; color: #ffffff; font-size: 15px; font-weight: 500; background-color: #1a2a3b; padding: 8px 20px; border-radius: 30px; -moz-border-radius: 30px; -webkit-border-radius: 30px;}
+.topbanner .icon {margin-top: 57px;}
+
+/** Contents Part **/
+.conts {padding: 50px 0;}
+.conts .author {background-color: #ecf2f1; padding: 10px 30px; float: left; width: 100%;}
+.conts .author .ratestars {float: left; margin-top: 6px; margin-right: 20px;}
+.conts .author .autorname {float: left;}
+.conts .author .autorname img {width: 35px; height: 35px; float: left; object-fit: contain; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%;}
+.conts .author .autorname p {color: #515252; font-size: 15px; margin-top: 7px; margin-left: 45px; font-weight: 700;}
+.conts .author .autorname p span {color: #1a2a3b;}
+.conts .author .date {float: left; color: #515252; margin: 8px 20px 0;}
+.conts .author .cate {float: left; font-weight: 700; color: #515252; margin-top: 8px;}
+.conts .imgbox {float: left; margin: 30px 0; width: 100%; clear: both; padding: 10px; box-shadow: 0px 0px 7px rgba(0,0,0,0.10); -moz-box-shadow: 0px 0px 7px rgba(0,0,0,0.10); -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.10);}
+.conts .texts {float: left; width: 100%;}
+.conts .texts p {color: #515252; font-size: 18px; line-height: 26px; margin-bottom: 20px;}
+.conts .texts p a, .conts .texts ul li a {color: #1d928a; font-weight: 700;}
+.conts .texts p a:hover, .conts .texts ul li a:hover {text-decoration: underline;}
+.conts .texts2 {float: left; width: 100%; /*background-color: #e9f6f4;*/ padding: 30px; margin-top: 15px; margin-bottom: 15px; box-shadow: 0px 0px 11px rgba(0,0,0,0.1); -moz-box-shadow: 0px 0px 11px rgba(0,0,0,0.1); -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,0.1);}
+.conts .texts2 h4 {font-size: 26px; font-weight: 700; color: #1d928a; line-height: 33px;}
+.conts .texts3, .conts .texts4, .conts .texts5 {border-top: 1px solid #ecf2f1; padding-top: 40px; margin-top: 20px;}
+.conts .texts3 .twimg {width: 48%; text-align: center; margin-bottom: 30px; padding: 10px; box-shadow: 0px 0px 7px rgba(0,0,0,0.10); -moz-box-shadow: 0px 0px 7px rgba(0,0,0,0.10); -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.10);}
+.conts .texts3 .twimg img {width: 100%;}
+.conts .texts .stars {margin-bottom: 15px;}
+.conts .texts5 {border-bottom: 1px solid #ecf2f1; padding-bottom: 25px; margin-bottom: 30px;}
+.conts .texts ul li {display: block; color: #515252; line-height: 24px; margin: 12px 0; font-size: 18px; font-weight: 400; background: url(../images/tickmark.png) no-repeat 0 6px; padding-left: 26px;}
+.conts .texts .cbtn {width: 100%; font-size: 26px; font-weight: 700; padding: 14px 25px; border-radius: 40px; -moz-border-radius: 40px; -webkit-border-radius: 40px;}
+.conts .text6 {/*background-color: #e9f6f4;*/ border: 2px solid #e9f6f4; padding:25px 30px; margin: 30px 0; box-shadow: 0px 0px 11px rgba(0,0,0,0.1); -moz-box-shadow: 0px 0px 11px rgba(0,0,0,0.1); -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,0.1);}
+
+.aboutauthor {background-color: #ecf2f1; padding: 20px; margin-bottom: 600px;}
+.aboutauthor h4, .productbox h4 {font-weight: 700; font-size: 20px; text-align: center;}
+.aboutauthor h4 {text-align: left;}
+.aboutauthor .photo {float: left; margin: 15px 0; width: 90px; height: 90px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; overflow: hidden;}
+.aboutauthor p {color: #515252; font-size: 16px; line-height: 20px; margin: 15px 0 0 110px;}
+.productbox {border:2px solid #ecf2f1; padding: 20px; position: sticky; top: 30px;}
+.productbox .prodimg {display: block;}
+.productbox .cbtn {font-size: 20px; width: 100%; font-weight: 700;}
+
+.modal-dialog {max-width: 700px;}
+.checking {padding: 40px 0;}
+.checking p {font-size: 16px; font-weight: 600; color: #1a2a3b;}
+.modal-body {padding: 30px;}
+.progress-bar {background-color: #1d928a;}
+
+.newcl .cbtn {margin: 20px 0; font-size: 20px;}
+.overlay {position: fixed; display: none; top: 0; left: 0; bottom: 0; right: 0; background-color: rgba(0,0,0,0.90);}
+
+/** Footer Part **/
+footer {background-color: #213244; padding: 50px 0;}
+footer .fmenus {padding: 40px 0 0 0;}
+footer .fmenus li {display: inline-block; border-right: 1px solid #33465b; padding: 0 26px 0 24px;}
+footer .fmenus li:last-child {border-right: none;}
+footer .fmenus li a {color: #ffffff; font-weight: 500; letter-spacing: 0.5px;}
+footer .fmenus li a:hover {color: #1d928a;}
+footer .copyright {color: #afbac6; font-size: 13px; margin-top: 15px; letter-spacing: 0.5px;}
+footer .disclaimer p {border-top: 1px solid #33465b; padding-top: 15px; color: #afbac6; font-size: 13px; letter-spacing: 0.5px;}
+footer .disclaimer p b {color: #ffffff;}

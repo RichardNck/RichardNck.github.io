@@ -1,0 +1,23 @@
+#process-popup2 {
+    border: 8px solid #1d928a!important;
+    box-shadow: 0 0 16px #1d928a!important;
+}
+
+.loaderBtn {
+    text-align: center;
+    color: #fff!important;
+    text-decoration: none;
+    background-color: #0bb64e;
+    border-bottom: 3px solid #08873a;
+    border-radius: 3px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px;
+    display: block;
+}
+.loaderBtn {
+    transition: all .2s ease-in-out;
+}
+
+#process-popup2 p {margin: 5px;}
