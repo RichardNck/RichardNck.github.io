@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 36px;
+        font-weight: bold;
+        color: #4CAF50;
+      }
+      form {
+        width: 500px;
+        margin: 50px auto;
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+      }
+      label {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #4CAF50;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <form action="mailto:info@offdiscounts.com" method="post">
+      <label for="name">Name :</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email"> e-mail :</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="message">Message :</label>
+      <textarea id="message" name="message"></textarea><br><br>
+      <input type="submit" value="Sent">
+    </form>
+  </body>
+</html>
